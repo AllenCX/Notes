@@ -40,6 +40,12 @@ And copy the port token, which is ""8889" and "fd4bb9b48f8c71bf2b4d6c94d273ac1db
 ssh -N -f -L localhost:12345:localhost:[the port you saw/chose in step 4] yourNetId@ssh.clear.rice.edu
 ```
 
+For example:
+
+```
+ssh -N -f -L localhost:12345:localhost:8889 yourNetId@ssh.clear.rice.edu
+```
+
 The flag -L means that the local machine forward the local port to the remote port. For more information see [here][1] 
 7. Open your browser, type in **localhost:12345** in address bar.
 8. Copy the token you saved in step 4 into the text field on the top of the page.
@@ -50,7 +56,7 @@ The flag -L means that the local machine forward the local port to the remote po
 3. Click **"ssh"** expand the tree then click **"tunnel"**.
 4. Click the checkbox of **"Local ports accept..."**
 5. In **"Source Port"** choose any port you like. For example: 12345
-6. In **"Destination"**, type in **localhost:[the port you would like choose]**, then click **"add"**
+6. In **"Destination"**, type in **localhost:[the port you would like choose]**, then click **"add"**. 
 7. Back to the **"Session"** tab, click **"Open"**.
 8. Type in your password
 9. Install Jupyter, if you have installed, skip to next step.
