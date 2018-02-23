@@ -79,6 +79,7 @@ And copy the port token, which is ""8889" and "fd4bb9b48f8c71bf2b4d6c94d273ac1db
 12. Copy the token you saved in step 10 into the text field on the top of the page.
 
 ## How to start a AWS EC2 GPU server machine
+### Always remember to stop or terminate your AWS machine after using it!!!
 ### Apply credit of AWS educate program
 1. Create an account on aws.amazon.com, find the account ID for step 2.
 2. Go to [here][3], click **Student** and fill in the form with your @rice.edu emaill address. If you use the link in Github student pack, you will get more than \$100 credit.
@@ -107,6 +108,7 @@ ssh -i "yourkey.pem" username@remoteMachineAddress
 2. Click **"Browse"** then select your key pair file.
 3. Then Click **"Open"**.
 
+## Always remember to stop or terminate your AWS machine after using it!!!
   [1]: https://linux.die.net/man/1/ssh
   [2]: https://www.putty.org/
   [3]: https://www.awseducate.com/Registration
