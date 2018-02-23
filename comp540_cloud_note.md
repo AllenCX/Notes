@@ -58,6 +58,7 @@ The flag -L means that the local machine forward the local port to the remote po
 pip install --user jupyter
 ```
 This command will install Jupyter under user's home directory. If you do not include **--user** flag, you will encounter permission denied error.
+
 10. Start your Jupyter notebook
 ```
 cd ~ 
