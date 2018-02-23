@@ -109,7 +109,13 @@ ssh -i "yourkey.pem" username@remoteMachineAddress
 3. Then Click **"Open"**.
 
 ## Always remember to stop or terminate your AWS machine after using it!!!
-  [1]: https://linux.die.net/man/1/ssh
+
+## Some other notes
+If we close a terminal that is connecting with a remote machine, the connection will be down and the task running in that terminal will be stopped. It sounds not good for us because sometimes we may need a lot of hours to run a program (it usual if you run some big deep learning models), we have to keep our computer open and connecting with WIFI all the time.
+
+To prevent such things, you may want to use **Screen**, for more information, see the [man page] of it or just Google some tutorial about it.
+  [1]: https://linux.die.net/man/1/ssh
   [2]: https://www.putty.org/
   [3]: https://www.awseducate.com/Registration
   [4]: https://console.aws.amazon.com/support/home
+  [5]: https://www.gnu.org/software/screen/manual/screen.html
