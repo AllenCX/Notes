@@ -19,7 +19,7 @@ This command will install Jupyter under user's home directory. If you do not inc
  4. Start your Jupyter notebook
 ```
 cd ~ 
-cd ./local/bin
+cd .local/bin
 jupyter notebook 
 ```
 
@@ -68,7 +68,7 @@ This command will install Jupyter under user's home directory. If you do not inc
 10. Start your Jupyter notebook
 ```
 cd ~ 
-cd ./local/bin
+cd .local/bin
 jupyter notebook 
 ```
 
