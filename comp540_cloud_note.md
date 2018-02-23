@@ -109,6 +109,13 @@ ssh -i "yourkey.pem" username@remoteMachineAddress
 2. Click **"Browse"** then select your key pair file.
 3. Then Click **"Open"**.
 
+#### After logging in
+Use 
+```
+conda env list
+```
+to see the virtual environment you have on the EC2 machine. Activate anyone you like and run your code.
+
 ## Always remember to stop or terminate your AWS machine after using it!!!
 
 ## Some other notes
