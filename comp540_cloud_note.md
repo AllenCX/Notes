@@ -6,7 +6,7 @@
 ### For Linux and Mac user
 
  1. Open a new terminal window
- 2. Put in command: 
+ 2. Type in: 
 ```
 ssh yourNetId@ssh.clear.rice.edu
 ```
