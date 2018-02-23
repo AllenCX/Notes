@@ -37,7 +37,7 @@ And copy the port token, which is ""8889" and "fd4bb9b48f8c71bf2b4d6c94d273ac1db
 6. Type in the command below:
 
 ```
-ssh -N -f -L localhost:12345:localhost:[the port you saw/chose in step 4] yourNetId@ssh.clear.rice.edu
+ssh -N -f -L localhost:12345:localhost:[the port (4 number digit by default) you saw/chose in step 4] yourNetId@ssh.clear.rice.edu
 ```
 
 For example:
