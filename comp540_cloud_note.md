@@ -81,7 +81,7 @@ Then you can see your Jupyter notebook is running, find something like
 
 >  http://localhost:8889/?token=fd4bb9b48f8c71bf2b4d6c94d273ac1db57aae5db1f8658f
 
-And copy the port token, which is ""8889" and "fd4bb9b48f8c71bf2b4d6c94d273ac1db57aae5db1f8658f", we will use it later.
+And copy the token, which is ""8889" and "fd4bb9b48f8c71bf2b4d6c94d273ac1db57aae5db1f8658f", we will use it later.
 11. Open your browser, type in **localhost:12345** in address bar.
 12. Copy the token you saved in step 10 into the text field on the top of the page.
 
