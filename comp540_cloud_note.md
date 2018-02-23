@@ -6,7 +6,7 @@
 ### For Linux and Mac user
 
  1. Open a new terminal window
- 2. Type in: 
+ 2. Type in command: 
 ```
 ssh yourNetId@ssh.clear.rice.edu
 ```
@@ -79,7 +79,6 @@ And copy the port token, which is ""8889" and "fd4bb9b48f8c71bf2b4d6c94d273ac1db
 12. Copy the token you saved in step 10 into the text field on the top of the page.
 
 ## How to start a AWS EC2 GPU server machine
-### Always remember to stop or terminate your AWS machine after using it!!!
 ### Apply credit of AWS educate program
 1. Create an account on aws.amazon.com, find the account ID for step 2.
 2. Go to [here][3], click **Student** and fill in the form with your @rice.edu emaill address. If you use the link in Github student pack, you will get more than \$100 credit.
@@ -108,15 +107,13 @@ ssh -i "yourkey.pem" username@remoteMachineAddress
 2. Click **"Browse"** then select your key pair file.
 3. Then Click **"Open"**.
 
-## Always remember to stop or terminate your AWS machine after using it!!!
-
 ## Some other notes
 If we close a terminal that is connecting with a remote machine, the connection will be down and the task running in that terminal will be stopped. It sounds not good for us because sometimes we may need a lot of hours to run a program (it usual if you run some big deep learning models), we have to keep our computer open and connecting with WIFI all the time.
 
-To prevent such things, you may want to use **Screen**, for more information, see the [man page] of it or just Google some tutorial about it.
+To prevent such things, you may want to use **Screen**, for more information, see the [man page][5] of it or just Google some tutorial about it.
 
 
-  [1]: https://linux.die.net/man/1/ssh
+  [1]: https://linux.die.net/man/1/ssh
   [2]: https://www.putty.org/
   [3]: https://www.awseducate.com/Registration
   [4]: https://console.aws.amazon.com/support/home
